@@ -6,6 +6,7 @@
   border-radius: 50%;
 }
 
+.credentials
 input[name=firstname],
 input[name=lastname],
 input[name=email],
@@ -21,6 +22,7 @@ select {
     box-sizing: border-box;
   }
 
+  .credentials
   input[type=submit] {
     background-color:#EC524B;
     color: white;
