@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./scss/styles.scss";
 
 import Dashboard from "./pages/Dashboard";
-import CardUpload from "./pages/CardUpload";
 import NewCard from "./pages/NewCard";
 import AccountAndSecurity from "./pages/AccountAndSecurity";
 import Settings from "./pages/Settings";
@@ -13,7 +12,6 @@ function App() {
         <Router>
             <Switch>
                 <Route exact path="/" component={Dashboard} />
-                <Route exact path="/cardupload" component={CardUpload} />
                 <Route exact path="/newcard" component={NewCard} />
                 <Route
                     exact
