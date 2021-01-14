@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+import { UploadNewCard } from "../components/UploadNewCard"
 
 export default class NewCard extends Component {
     render() {
-        return <div></div>;
+        return (
+            <UploadNewCard />
+        )
+        
     }
 }
