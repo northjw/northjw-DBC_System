@@ -1,0 +1,41 @@
+.left{
+    float: left;
+    width: 20%;
+    background: linear-gradient(93.89deg, rgba(0, 0, 0, 0.5) 2.64%, rgba(63, 64, 66, 0.5) 51.41%, rgba(135, 149, 170, 0.5) 51.41%, rgba(135, 149, 170, 0.5) 96.29%);
+
+}
+
+.right{
+    float: right;
+    width: 80%;
+}
+
+.left img{
+    padding: 4vw;
+  display: block;
+  width: 15vw;
+  border-radius: 50%;
+}
+
+.signinbutton input[type=submit]{
+    width: 100%;
+    background-color:#EC524B;
+    color: white;
+    padding: 1.4vw 1vw;
+    margin: 0.8vw 0;
+    border: none;
+    border-radius: 0.4vw;
+    cursor: pointer;
+}
+
+.createbutton input[type=submit]{
+    width: 100%;
+    background-color:#4682B4;
+    color: white;
+    padding: 1.4vw 1vw;
+    margin: 0.8vw 0;
+    border: none;
+    border-radius: 0.4vw;
+    cursor: pointer;
+}
+
