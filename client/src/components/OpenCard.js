@@ -15,11 +15,3 @@ export const OpenCard = () => {
     )
         
 };
-
-// <div className="card">
-// <img src={BusinessCard}>
-//     <div className="container">
-//         <h4>John Doe</h4>
-//         <p>Architect & Engineer</p>
-//     </div>
-// </div>
