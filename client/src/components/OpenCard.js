@@ -5,7 +5,7 @@ export const OpenCard = () => {
     return(
        <div className="card">
            <div className="container">
-               <p>Learn Web Development</p>
+               <p>Learn Web Development</p><span className="close">x</span>
                <hr />
                <div className="imagecontainer">
                <img src={BusinessCard} />
