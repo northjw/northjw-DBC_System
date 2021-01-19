@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const userController = require("../../controllers/userController");
+const userController = require("../../../controllers/userController");
 // Requiring passport as we've configured it
-const passport = require("../../utils/passport");
+const passport = require("../../../utils/passport");
 
 // Matches with "/api/user/login"
 router.route("/login")
