@@ -3,12 +3,12 @@ import React from "react";
 function NoMatch() {
     return (
         <>
-            <h1>404 Page Not Found</h1>
-            <h1>
-                <span role="img" aria-label="Face With Rolling Eyes Emoji">
-                    🙄
-                </span>
-            </h1>
+           <div className="container">
+            <h2>Ooops! Page not found. </h2>
+            <h1>404</h1>
+            <h3>We can't find the page you're looking for.</h3>
+            <button>Go Back</button>
+           </div>
         </>
     );
 }
