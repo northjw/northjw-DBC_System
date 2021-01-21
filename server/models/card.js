@@ -1,6 +1,7 @@
-const mongoose = require("mongoose");
+var mongoose = require("mongoose");
+var Schema = mongoose.Schema;
 
-const cardSchema = new mongoose.Schema({
+var cardSchema = new Schema({
   cardTag: { type: String, required: true, default: "" },
   cardTags: { type: String, required: true, default: "" },
   firstName: { type: String, required: true, default: "" },
@@ -17,6 +18,4 @@ const cardSchema = new mongoose.Schema({
   },
 });
 
-const Card = mongoose.model("Card", cardSchema);
-
-module.exports = Card;
+module.exports = mongoose.model("Card", cardSchema);

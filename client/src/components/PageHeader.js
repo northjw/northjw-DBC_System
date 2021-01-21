@@ -8,7 +8,7 @@ export const PageHeader = ({ labelName }) => {
         <>
             <div className="d-label-container">
                 {labelName.map((l) => (
-                    <div className="d-header-label-container">
+                    <div className="d-header-label-container" key={l}>
                         <div className="d-header-label">{l}</div>
                         <img
                             className="d-label-end"

@@ -3,6 +3,7 @@ const db = require("../models/user");
 // Defining methods for the userController
 module.exports = {
     login: function (req, res) {
+        console.log("!!!!!@@@")
         // Sending back a password, even a hashed password, isn't a good idea
         res.json({
             _id: req.user._id,
