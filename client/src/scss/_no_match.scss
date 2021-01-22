@@ -1,20 +1,16 @@
-body{
-    margin:0;
-    padding:0;
+.nomatch{
     font-family: 'Courier New', Courier, monospace;
     min-height: 100vh;
-    background-image: linear-gradient(125deg, #6a89cc, #b8e994);
-}
-
-.container{
+    // background-image: linear-gradient(125deg, #6a89cc, #b8e994);
     width: 100%;
-    position: absolute;
-    top: 20%;
+    position: relative;
+    padding-top: 5vw;
+    padding-left: 15vw;
     text-align: center;
 }
 
-.container h1{
-    font-size: 16vw;
+.nomatch h1{
+    font-size: 10vw;
     margin: 0;
     font-weight: 900;
     letter-spacing: 2px;
@@ -23,28 +19,27 @@ body{
     -webkit-background-clip: text;
 }
 
-.container h2{
-    font-size: 1.7vw;
+.nomatch h2{
+    font-size: 1.3vw;
 }
 
-.container h3{
+.nomatch h3{
     padding-bottom: 2vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
-
-.container button{
+.nomatch button{
     text-decoration: none;
     background: #e55039aa;
     color: #fff;
     padding: 1vw 1vw;
     display: inline-block;
     border-radius: 1.3vw;
-    font-size: 1.6vw;
+    font-size: 1vw;
     text-transform: uppercase;
     transition: 0.4s;
 }
 
-.container button:hover{
+.nomatch button:hover{
     background: #e55039;
   }

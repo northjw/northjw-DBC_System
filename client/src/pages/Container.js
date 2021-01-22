@@ -30,6 +30,7 @@ export default class Container extends Component {
         this.children = props.children;
     }
     render() {
+        console.log(this)
         return (
             <Section>
                 <Header>
